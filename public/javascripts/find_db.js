@@ -13,7 +13,7 @@ var createDocuments  = function(db, callback) {
     collection.insert([
         {firstname : "amulya",lastname: "komatineni",emailid: "amulya@gmail.com"},
         {firstname : "sravani",lastname: "komatineni",emailid: "sravani@gmail.com"},
-        {firstname : "kavya",lastname: "komatineni",emailid: "hema@gmail.com"},
+        {firstname : "kavya",lastname: "Thota",emailid: "hema@gmail.com"},
     ], function(err, result) {
         callback(result);
     });
